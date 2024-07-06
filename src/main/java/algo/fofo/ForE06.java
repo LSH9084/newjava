@@ -1,4 +1,4 @@
-package algo;
+package algo.fofo;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

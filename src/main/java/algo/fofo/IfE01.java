@@ -1,4 +1,4 @@
-package algo;
+package algo.fofo;
 
 public class IfE01 {
 	public static void main(String[] args) {
