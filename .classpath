@@ -48,7 +48,6 @@
 			<attribute name="optional" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="lombok.jar"/>
-	<classpathentry kind="lib" path="C:/javaStudyLsh/javava/firstjava/testlib-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Study/back/workSpace/newjava/lombok.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
