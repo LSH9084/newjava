@@ -35,38 +35,17 @@ public class E01 {
 		int [][] number3 = new int[N][M];
 		
 		for(int i=0; i<N; i++) {
-			String [] str2 = br.readLine().split(" ");
 			for(int j=0; j<M; j++) {
-				number2[i][j] = Integer.parseInt(str2[j]);
+				number3[i][j] = number1[i][j]+number2[i][j];
+			}
+		}	
+		for(int i=0; i<N; i++) {
+				for(int j=0; j<M; j++) {
+					System.out.print(number3[i][j]+" ");
+				}
+				System.out.println();
 			}
 
 		}
 		
-	
-//		for(int j=0; j<M; j++) {
-//			String [] str2 = br.readLine().split(" ");
-//			number2[j][0] = Integer.parseInt(str2[0]);
-//			number2[j][1] = Integer.parseInt(str2[1]);
-//			number2[j][2] = Integer.parseInt(str2[2]);
-//		}
-//
-//		
-//		int [][] number3 = new int[N][M];
-//		
-//
-//		for(int j=0; j<M; j++) {
-//			number3[j][0] = number1[j][0]+number2[j][0];
-//			number3[j][1] = number1[j][1]+number2[j][1];
-//			number3[j][2] = number1[j][2]+number2[j][2];
-//		}
-//
-//		
-//		for(int i=0; i<N; i++) {
-//			for(int j=0; j<N; j++) {
-//				System.out.print(number3[i][j]+" ");
-//			}
-//			System.out.println();
-//		}
-		
-	}
 }

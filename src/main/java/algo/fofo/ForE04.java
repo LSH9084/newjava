@@ -1,12 +1,6 @@
 package algo.fofo;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 import java.util.Scanner;
-
-import org.apache.poi.hpsf.Array;
 
 public class ForE04 {
 	static int X; // 총 가격
